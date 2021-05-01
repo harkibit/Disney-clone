@@ -9,12 +9,16 @@ import {
   Link,
 } from "react-router-dom";
 import Home from "./screen/Home";
+import Login from "./components/Login";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Route exact path = "/login">
+            <Login/>
+         </Route>
           <Route exact path = "/">
             <Home/>
           </Route>
