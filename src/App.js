@@ -10,12 +10,14 @@ import {
 } from "react-router-dom";
 import Home from "./screen/Home";
 import Login from "./components/Login";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
+          <Navbar/>
           <Route exact path = "/login">
             <Login/>
          </Route>

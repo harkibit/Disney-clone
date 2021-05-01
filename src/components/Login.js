@@ -23,6 +23,9 @@ export default function Login() {
 const Container = styled.div`
   position: relative;
   height: calc(100vh - 70px);
+  display : flex;
+  justify-content : center;
+  align-items : center;
 
   &:before {
     position: absolute;
@@ -45,6 +48,7 @@ const CTA = styled.div`
   width: 80%;
   flex-direction: column;
   padding: 80px 40px;
+  
 `;
 
 const CTALogoOne = styled.img``;
@@ -55,6 +59,9 @@ const Signup = styled.button`
   color: #f9f9f9;
   border-radius: 5px;
   text-align: center;
+  font-size : 1.2em;
+  border : none;
+  padding : 15px;
 `;
 
 const Description = styled.p`
