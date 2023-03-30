@@ -1,31 +1,29 @@
 import React from "react";
 import styled from "styled-components";
 import background from "../assets/images/login-background.jpg";
-import logoOne from "../assets/images/cta-logo-one.svg";
-import logoTwo from "../assets/images/cta-logo-two.png";
+import topLogos from "../assets/images/cta-logo-one.svg";
+import bottomLogos from "../assets/images/cta-logo-two.png";
+
+import strings from "../assets/json/strings.json";
 
 export default function Login() {
   return (
     <Container>
       <CTA>
-        <CTALogoOne src={logoOne}/>
-        <Signup>Get all there</Signup>
-        <Description>
-          Get Premier Access to Raya and the Last Dragon for an additional fee
-          with a Disney+ subscription. As of 03/26/21, the price of Disney+ and
-          The Disney Bundle will increase by $1.
-        </Description>
-        <CTALogoOne src={logoTwo}/>
+        <CTALogo src={topLogos} />
+        <Signup>{strings.login.signup_button}</Signup>
+        <Description>{strings.login.description}</Description>
+        <CTALogo src={bottomLogos} />
       </CTA>
     </Container>
   );
 }
 const Container = styled.div`
   position: relative;
-  height: calc(100vh - 70px);
-  display : flex;
-  justify-content : center;
-  align-items : center;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:before {
     position: absolute;
@@ -44,14 +42,19 @@ const Container = styled.div`
 
 const CTA = styled.div`
   display: flex;
-  max-width: 650px;
+  max-width: 750px;
   width: 80%;
   flex-direction: column;
-  padding: 80px 40px;
-  
+  padding: 80px var(--side-padding);
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
 `;
 
-const CTALogoOne = styled.img``;
+const CTALogo = styled.img`
+  margin-bottom: 10px;
+`;
 
 const Signup = styled.button`
   width: 100%;
@@ -59,12 +62,16 @@ const Signup = styled.button`
   color: #f9f9f9;
   border-radius: 5px;
   text-align: center;
-  font-size : 1.2em;
-  border : none;
-  padding : 15px;
+  font-size: 1.2em;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
 `;
 
 const Description = styled.p`
-  font-size : 11px;
-  letter-spacing : 1.1px
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  line-height: 1.3;
+  padding: 20px 0;
+  text-align: center;
 `;
