@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Disney-clone/static/css/main.92f6dafe.chunk.css",
+    "main.js": "/Disney-clone/static/js/main.abdeb68f.chunk.js",
+    "main.js.map": "/Disney-clone/static/js/main.abdeb68f.chunk.js.map",
+    "runtime-main.js": "/Disney-clone/static/js/runtime-main.41d1920c.js",
+    "runtime-main.js.map": "/Disney-clone/static/js/runtime-main.41d1920c.js.map",
+    "static/css/2.ae58e140.chunk.css": "/Disney-clone/static/css/2.ae58e140.chunk.css",
+    "static/js/2.23d178dc.chunk.js": "/Disney-clone/static/js/2.23d178dc.chunk.js",
+    "static/js/2.23d178dc.chunk.js.map": "/Disney-clone/static/js/2.23d178dc.chunk.js.map",
+    "index.html": "/Disney-clone/index.html",
+    "static/css/2.ae58e140.chunk.css.map": "/Disney-clone/static/css/2.ae58e140.chunk.css.map",
+    "static/css/main.92f6dafe.chunk.css.map": "/Disney-clone/static/css/main.92f6dafe.chunk.css.map",
+    "static/js/2.23d178dc.chunk.js.LICENSE.txt": "/Disney-clone/static/js/2.23d178dc.chunk.js.LICENSE.txt",
+    "static/media/cta-logo-one.51d9b8d7.svg": "/Disney-clone/static/media/cta-logo-one.51d9b8d7.svg",
+    "static/media/cta-logo-two.e69ae552.png": "/Disney-clone/static/media/cta-logo-two.e69ae552.png",
+    "static/media/home-icon.b6a11f9b.svg": "/Disney-clone/static/media/home-icon.b6a11f9b.svg",
+    "static/media/login-background.05b1a1b3.jpg": "/Disney-clone/static/media/login-background.05b1a1b3.jpg",
+    "static/media/logo.8205aae8.svg": "/Disney-clone/static/media/logo.8205aae8.svg",
+    "static/media/movie-icon.1a6f6ada.svg": "/Disney-clone/static/media/movie-icon.1a6f6ada.svg",
+    "static/media/original-icon.d7752d89.svg": "/Disney-clone/static/media/original-icon.d7752d89.svg",
+    "static/media/search-icon.46aff20f.svg": "/Disney-clone/static/media/search-icon.46aff20f.svg",
+    "static/media/series-icon.4d410db6.svg": "/Disney-clone/static/media/series-icon.4d410db6.svg",
+    "static/media/slick-theme.css": "/Disney-clone/static/media/slick.c94f7671.ttf",
+    "static/media/slider-badag.36599446.jpg": "/Disney-clone/static/media/slider-badag.36599446.jpg",
+    "static/media/slider-badging.b33dd5b6.jpg": "/Disney-clone/static/media/slider-badging.b33dd5b6.jpg",
+    "static/media/slider-scale.172c6ead.jpg": "/Disney-clone/static/media/slider-scale.172c6ead.jpg",
+    "static/media/slider-scales.f921e314.jpg": "/Disney-clone/static/media/slider-scales.f921e314.jpg",
+    "static/media/viewers-disney.eb5bab59.png": "/Disney-clone/static/media/viewers-disney.eb5bab59.png",
+    "static/media/viewers-national.c50dd65f.png": "/Disney-clone/static/media/viewers-national.c50dd65f.png",
+    "static/media/viewers-starwars.3fb2e20c.png": "/Disney-clone/static/media/viewers-starwars.3fb2e20c.png",
+    "static/media/watchlist-icon.0b5a945b.svg": "/Disney-clone/static/media/watchlist-icon.0b5a945b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41d1920c.js",
+    "static/css/2.ae58e140.chunk.css",
+    "static/js/2.23d178dc.chunk.js",
+    "static/css/main.92f6dafe.chunk.css",
+    "static/js/main.abdeb68f.chunk.js"
+  ]
+}
